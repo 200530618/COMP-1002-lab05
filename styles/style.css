@@ -1,0 +1,130 @@
+/* Step 2: Import the Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+/* Step 3: Import the Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+/* End of Fonts */
+
+*{
+    outline: 1px dashed #ccc;
+}
+
+
+
+/* Step 4: Setup the Defaults */
+
+body{
+    font-family: 'Caveat', cursive;
+    font-size: 20pt;
+}
+
+/* End of Defaults */
+
+
+/* Step 5: Design the Header */
+h1{
+    font-family: 'Lobster', cursive;
+    font-size:  54pt;
+    color: red;
+    text-align: center;
+}
+
+.main-header-title > h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 34pt;
+    color: blue;
+    
+}
+
+.aim > h3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 25pt;
+    color: chartreuse;
+
+}
+
+
+header > p{
+    background-color: burlywood;
+}
+
+/* End of Header */
+
+
+
+cite{
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+}
+
+
+.main-header-title p{
+    background-color: aqua;
+    color: black;
+    float: left;
+    margin-top: 2em;
+}
+
+.main-body-part p{
+    background-color: cadetblue;
+    color: yellow;
+    float: right;
+}
+
+
+
+.aim > p{
+    background-color: chocolate;
+    color: blue;
+}
+
+.main-body-part > figure{
+    float: left;
+}
+
+
+
+/* Step 6: Define the Nav */
+
+/* End of Nav */
+
+
+/* Step 7: Define the Section Defaults */
+
+/* End of Section Defaults */
+
+
+/* Step 8: Design Section 1 */
+
+/* End of Section 1 */
+
+
+/* Step 9: Design Section 2 */
+
+#section-2 figure{
+    width: 300px;
+    margin: 0 1em;
+
+}
+
+
+
+
+/* End of Section 2 */
+
+
+/* Step 10: Design Section 3 */
+
+/* End of Section 3 */
+
+
+/* Step 11: Design Section 4 */
+
+/* End of Section 4 */
